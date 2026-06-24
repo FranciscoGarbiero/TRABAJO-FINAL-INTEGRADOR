@@ -1,2 +1,9 @@
 # TRABAJO-FINAL-INTEGRADOR
-Francisco Garbiero-TUT-UTN
+
+# Carrera
+Tecicatura en Telecomunicaciones
+
+# Integrantes
+Francisco Garbiero
+
+
