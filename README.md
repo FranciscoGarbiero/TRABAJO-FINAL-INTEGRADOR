@@ -1,9 +1,18 @@
 # TRABAJO-FINAL-INTEGRADOR
 
 # Carrera
-Tecicatura en Telecomunicaciones
+Tecnicatura en Telecomunicaciones UTN
 
 # Integrantes
 Francisco Garbiero
 
+# Materia
+Programacion
+
+# Programas usados
+PseInt-Colab
+
+#Descripcion
+
+Trabajo final Intergrador realizado individualmente
 
