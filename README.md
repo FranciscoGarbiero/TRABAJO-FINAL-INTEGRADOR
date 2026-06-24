@@ -12,7 +12,7 @@ Programacion
 # Programas usados
 PseInt-Colab
 
-#Descripcion
+# Descripcion
 
 Trabajo final Intergrador realizado individualmente
 
