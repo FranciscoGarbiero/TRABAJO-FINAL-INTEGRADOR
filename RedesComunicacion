@@ -1,0 +1,31 @@
+import networkx as nx
+import matplotlib.pyplot as plt
+
+red = nx.DiGraph()
+
+nodos = ["Nodo A", "Nodo B", "Nodo C", "Nodo D",
+         "Nodo E", "Nodo F", "Nodo G", "Nodo H"]
+
+conexion = [
+    ("Nodo A", "Nodo B"), ("Nodo A", "Nodo C"),
+    ("Nodo B", "Nodo C"), ("Nodo B", "Nodo D"),
+    ("Nodo C", "Nodo D"), ("Nodo C", "Nodo E"),
+    ("Nodo D", "Nodo E"), ("Nodo D", "Nodo F"),
+    ("Nodo E", "Nodo F"), ("Nodo E", "Nodo G"),
+    ("Nodo F", "Nodo G"), ("Nodo F", "Nodo H"),
+    ("Nodo G", "Nodo H"), ("Nodo G", "Nodo A"),
+    ("Nodo H", "Nodo A"), ("Nodo H", "Nodo B"),
+]
+
+red.add_nodes_from(nodos)
+red.add_edges_from(conexion)
+
+pos = nx.circular_layout(red)
+nx.draw(red, pos, with_labels=True, node_color='lightblue',
+        edge_color='green', arrows=True)
+plt.title("Red Direccionada con 2 Conexiones por Nodo")
+plt.show()
+
+# Verificación
+for nodo in nodos:
+    print(f"{nodo}: out-degree = {red.out_degree(nodo)}")
